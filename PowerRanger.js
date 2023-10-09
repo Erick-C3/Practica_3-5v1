@@ -6,8 +6,8 @@ const COLOR_POWER_RANGER = '\x1b[32m%s\x1b[0m';
 
 class PowerRanger extends Personaje{
 
-    constructor(nombre, puntosAtaque, puntosVida){
-        super(nombre, puntosAtaque, puntosVida, COLOR_POWER_RANGER);
+    constructor(nombre, puntosAtaque, puntosVida, arma){
+        super(nombre, puntosAtaque, puntosVida, COLOR_POWER_RANGER, arma);
     }
 
     decimeComoTeLlamas(){
